@@ -1,0 +1,107 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Algerian:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Algerian', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to left, #d41c1c, #ffffff, #2145a3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #d41c1c;
+    border-radius: 5px;
+}
+nav .login-btn {
+    background-color: red;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav .signup-btn {
+    background-color: white;
+    color: red;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid red;
+    align-items:right;
+}
+.search-form {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    background-color: #2145a3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+section {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.donate-button {
+    display: inline-block;
+    background-color: #d41c1c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.donate-button:hover {
+    background-color: #b31717;
+}
+
+footer {
+    background-color: #2145a3;
+    color: white;
+    padding: 10px;
+}
